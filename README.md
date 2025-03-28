@@ -9,7 +9,9 @@
     - Calculate performance measurements for each model, including:
       
         ➢Mean Absolute Deviation (MAD)
+      
         ➢Mean Squared Error (MSE)
+
         ➢Mean Absolute Percentage Error (MAPE)
 3. Results Compilation:
     - Compile the forecasting results and performance measurements into an Excel file named “Results.xlsx”.
