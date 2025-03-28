@@ -1,17 +1,36 @@
-1. Forecasting Models Implementation: Use Python to implement the following forecasting models:
-    1. Single Exponential Smoothing
-    2. Double Exponential Smoothing
-    3. Triple Exponential Smoothing (Holt-Winters Method)
-    4. Linear Regression
-2. Data Analysis:
-    - Download the demand data from the Excel file “HW 5 – ES and LR”.
-    - Apply your Python codes to run each of the four forecasting models on the provided demand data. Assume alpha = 0.5, beta = 0.35, gamma = 0.6, and N = 4 (four periods in a season)
-    - Calculate performance measurements for each model, including:
-      
-        ➢Mean Absolute Deviation (MAD)
-      
-        ➢Mean Squared Error (MSE)
+# 📊 Forecasting Models in Python
 
-        ➢Mean Absolute Percentage Error (MAPE)
-3. Results Compilation:
-    - Compile the forecasting results and performance measurements into an Excel file named “Results.xlsx”.
+This project implements basic forecasting techniques on time series data using:
+
+- 🔹 Single Exponential Smoothing (SES)
+- 🔹 Double Exponential Smoothing (DES)
+- 🔹 Triple Exponential Smoothing (Holt-Winters Method)
+- 🔹 Linear Regression (LR)
+
+---
+
+## 📁 Files Included
+
+| File Name            | Description                                      |
+|----------------------|--------------------------------------------------|
+| `forecastModels.py`  | Main Python script with all forecasting models  |
+| `Results.xlsx`       | Forecasted results and error metrics            |
+
+---
+
+## 🧠 Methodology
+
+- Custom implementations for SES, DES, and TES (no external forecasting libraries)
+- Performance metrics used:
+  - **MAD** – Mean Absolute Deviation
+  - **MSE** – Mean Squared Error
+  - **MAPE** – Mean Absolute Percentage Error
+- Final results are programmatically saved to `Results.xlsx`
+
+---
+
+## 🚀 How to Run
+
+```bash
+pip install pandas numpy scipy openpyxl
+python forecastModels.py
