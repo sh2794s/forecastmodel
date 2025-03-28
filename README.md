@@ -1,5 +1,4 @@
-1. Forecasting Models Implementation:
-- Use Python to implement the following forecasting models:
+1. Forecasting Models Implementation: Use Python to implement the following forecasting models:
     1. Single Exponential Smoothing
     2. Double Exponential Smoothing
     3. Triple Exponential Smoothing (Holt-Winters Method)
