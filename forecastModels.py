@@ -93,7 +93,7 @@ def performance_measures(forecasting, observation):
     return MAD, MSE, MAPE
 
 # --- Main Execution Block ---
-df = pd.read_excel("C:\\Users\\Ravindra\\Downloads\\MSU-Assignment-Summaya\\2\\HW 5 - ES and LR.xlsx")  # Load data from Excel file
+df = pd.read_excel("HW 5 - ES and LR.xlsx")  # Load data from Excel file
 month = df['Month'].tolist()  # Extract month as x-axis (independent variable)
 demand = df['Demand'].tolist()  # Extract demand as y-axis (dependent variable)
 
